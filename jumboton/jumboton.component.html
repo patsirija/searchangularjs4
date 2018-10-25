@@ -1,0 +1,26 @@
+<app-navbar></app-navbar>
+<div class="jumbotron">
+
+  <div class="content">
+      <h3> ระบบค้นหาหอพักใกล้มหาวิทยาลัยราชภัฎภูเก็ต</h3>
+  </div>
+  <div class="col-xs-6 form-group  text-right">
+      <button class="btn btn-outline-success my-2 my-sm-0" >Admin</button>
+  </div>
+  <div class="col-xs-6 form-groudiv  text-right">
+    <button class="btn btn-outline-success my-2 my-sm-0"  (click)="place()">Place</button>
+  </div>
+  <div class="content2">
+    <form class="form-inline mt-2 mt-md-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" (click)="search()">Search</button>
+    </form>
+  </div><br>
+  <button class="btn btn-outline-success my-2 my-sm-0"><h6>หอพักราคาถูกที่สุด<br>(กำลังเลือก)</h6></button> 
+  &nbsp;<button class="btn btn-outline-success my-2 my-sm-0" (click)="home2()">หอพักที่ใกล้ที่สุด</button>
+  &nbsp;<button class="btn btn-outline-success my-2 my-sm-0" (click)="home3()">หอพักที่ได้คะแนนมากที่สุด</button>
+<br>
+<button class="btn btn-outline-success my-2 my-sm-0" (click)="department()">หอพักที่1</button>
+  
+  </div>
+  

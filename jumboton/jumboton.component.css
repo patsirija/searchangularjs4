@@ -1,0 +1,15 @@
+.content {
+    max-width: 600px;
+    margin: auto;
+}
+.content2 {
+    max-width: 400px;
+    margin: auto;
+}
+
+.text-to-align {
+    padding-left: 55%;
+}  
+.text-to-align2 {
+    padding-left: 1%;
+}  
